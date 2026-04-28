@@ -34,7 +34,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: './dist' # Vite의 기본 빌드 출력 폴더
+          path: dist # Vite의 기본 빌드 출력 폴더
 
   deploy:
     #environment:
